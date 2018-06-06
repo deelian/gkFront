@@ -47,6 +47,39 @@ a:focus {
 .searh_list{
     color: #333;
 }
-.searh_list_h:hover{
+.searh_list_hb{
+    width: 120px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.searh_list_d{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /*text-overflow:ellipsis;*/
+    /*white-space: nowrap;*/
+}
+/*.searh_list_d:first-letter{*/
+    /*font-size:72px;*/
+    /*color:#f5e327;*/
+    /*float:left;*/
+/*}*/
+.searh_list:hover .searh_list_h{
     color: #5cb85c;
+}
+.searh_list:active .searh_list_h{
+    color: #4cae4c;
+}
+
+
+.detail_t{
+    width: 80%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.detail_l{
+    border: none;
 }
