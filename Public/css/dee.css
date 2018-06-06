@@ -1,6 +1,6 @@
 a:hover,
 body{
-    margin-top:80px;
+    margin-top:70px;
 }
 a:focus {
     color: #2a6496;
@@ -43,4 +43,10 @@ a:focus {
 }
 .mlb>a{
     margin: 3px;
+}
+.searh_list{
+    color: #333;
+}
+.searh_list_h:hover{
+    color: #5cb85c;
 }
